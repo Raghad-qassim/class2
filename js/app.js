@@ -1,7 +1,6 @@
 'use strict';
-
- 
- let UserName=prompt(" what your name?");
- console.log(UserName);
- alert('welcome '+UserName);
+var userName="";
+ userName=prompt('what is your name?');
+console.log(userName);
+ alert('welcome  '+ userName );
 

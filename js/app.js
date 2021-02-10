@@ -1,5 +1,5 @@
 'use strict';
-let score = 0;
+
 let userName = '';
 userName = prompt('what is your name?');
 //console.log(userName);
@@ -9,7 +9,7 @@ alert('There are five questions answer it with yes or no  ');
 
 
 
-
+let score = 0;
 //Question one
 let study = prompt('I was study computer information system?');
 alert(q1(study));

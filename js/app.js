@@ -8,7 +8,7 @@ alert('There are five questions answer it with yes or no  ');
 
 
 
-let score = 0;
+let score = "";
 //Question one
 let study = prompt('I was study computer information system?');
 alert(q1(study));

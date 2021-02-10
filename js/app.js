@@ -133,39 +133,40 @@ function q5(answer) {
 
 
 //Question six
-let place = '';
-place = prompt(' How many Top 10 strange place i mentionsed in my page?', ' The answer must be anumber');
+
+
+let place = prompt(' How many Top 10 strange place i mentionsed in my page?', ' The answer must be anumber');
+
+alert(q6(place));
+
+function q6(answer) {
+
+    let i = 0;
+    for (i = 0; i < 3; i++) {
+        if (place === 10) {
+            score = score + 1;
+
+            return ('That is right the currect number is '+answer);
+
+        } else if (place > 10) {
+
+            alert('That is too high');
+            place = prompt(' How many strange place i mentionsed in my page?', ' The answer must be anumber');
+
+        } else {
+
+            alert('That is too low');
+            place = prompt(' How many strange place i mentionsed in my page?', ' The answer must be anumber');
+        }
+
+    }
+}
+
+
+
 //console.log(place);
 
 
-let i = 0;
-let answer = ' ';
-for (i = 0; i < 3; i++) {
-    if (place === 10) {
-        answer = ('That is right');
-        alert(answer);
-        score = score + 1;
-        break;
-    } else if (place > 10) {
-
-        answer = ('That is too high');
-        alert(answer);
-        place = prompt(' How many strange place i mentionsed in my page?', ' The answer must be anumber');
-
-
-
-    } else {
-
-        answer = ('That is too low');
-        alert(answer);
-        place = prompt(' How many strange place i mentionsed in my page?', ' The answer must be anumber');
-
-
-
-
-    }
-
-}
 
 //console.log(score);
 

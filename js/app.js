@@ -13,7 +13,7 @@ let score = 0;
 let study = prompt('I was study computer information system?');
 alert(q1(study));
 
-function q1 (answer) {
+function q1(answer) {
     if (answer === 'yes' || answer === 'y' || answer === 'Y' || answer === 'YES') {
         score = score + 1;
         return ('That is right ' + userName);
@@ -37,7 +37,7 @@ let message = '';
 //Question two
 
 let graduated = prompt('I was graduated in 2019?');
-alert (q2(graduated));
+alert(q2(graduated));
 function q2(answer) {
     if (answer === 'no' || answer === 'n' || answer === 'N' || answer === 'NO') {
         score = score + 1;
@@ -82,7 +82,7 @@ function q3(answer) {
 
 //Question four
 let GPA = prompt('my GPA was 3.38 from 4 in the university?');
-alert (q4(GPA));
+alert(q4(GPA));
 
 function q4(answer) {
     if (answer === 'yes' || answer === 'y' || answer === 'Y' || answer === 'YES') {
@@ -104,29 +104,31 @@ function q4(answer) {
 //console.log(GPA);
 
 //Question five
-let experience = '';
-experience = prompt('I have one years experience?');
+
+let experience = prompt('I have one years experience?');
+alert(q5(experience));
+
+function q5(answer) {
+    if
+    (answer === 'no' || answer === 'n' || answer === 'N' || answer === 'NO') {
+
+        score = score + 1;
+        return ('That is Right   ' + userName);
+    }else if
+
+    (answer === 'yes' || answer === 'YES' || answer === 'y' || answer === 'Y') {
+
+        return ('That is Wrong   ' + userName);
+
+    } else {
+        return ('wrong input');
+
+    }
+
+}
+
+
 //console.log(experience);
-if
-(experience === 'no' || experience === 'n' || experience === 'N' || experience === 'NO') {
-
-    message = ('That is right   ' + userName);
-    score = score + 1;
-
-
-}
-
-
-else if
-
-(experience === 'yes' || experience === 'YES' || experience === 'y' || experience === 'Y') {
-
-
-
-    message = ('wrong input');
-
-}
-alert(message);
 
 
 

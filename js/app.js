@@ -78,43 +78,30 @@ function q3(answer) {
     }
 }
 
-
 //console.log(University);
-if (University === 'yes' || University === 'y' || University === 'Y' || University === 'YES') {
-    message = ('That is right   ' + userName);
-    score = score + 1;
-
-}
-else if (University === 'no' || University === 'n' || University === 'N' || University === 'NO') {
-    message = ('That is wrong   ' + userName);
-
-} else {
-
-    message = ('wrong input');
-
-
-}
-alert(message);
 
 //Question four
-let GPA = '';
-GPA = prompt('my GPA was 3.38 from 4 in the university?');
+let GPA = prompt('my GPA was 3.38 from 4 in the university?');
+alert (q4(GPA));
+
+function q4(answer) {
+    if (answer === 'yes' || answer === 'y' || answer === 'Y' || answer === 'YES') {
+        score = score + 1;
+        return ('That is right   ' + userName);
+    }
+    else if (answer === 'no' || answer === 'n' || answer === 'N' || answer === 'NO') {
+        return ('That is Wrong   ' + userName);
+
+    } else {
+
+        return ('wrong input');
+
+
+    }
+
+}
+
 //console.log(GPA);
-if (GPA === 'yes' || GPA === 'y' || GPA === 'Y' || GPA === 'YES') {
-    message = ('That is right   ' + userName);
-    score = score + 1;
-}
-else if (GPA === 'no' || GPA === 'n' || GPA === 'N' || GPA === 'NO') {
-    message = ('That is wrong   ' + userName);
-
-} else {
-
-    message = ('wrong input');
-
-
-}
-alert(message);
-
 
 //Question five
 let experience = '';

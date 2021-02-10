@@ -35,25 +35,26 @@ let message = '';
 
 
 //Question two
-let graduated = '';
-graduated = prompt('I was graduated in 2019?');
+
+let graduated = prompt('I was graduated in 2019?');
+alert (q2(graduated));
+function q2(answer) {
+    if (answer === 'no' || answer === 'n' || answer === 'N' || answer === 'NO') {
+        score = score + 1;
+        return ('That is right ' + userName);
+
+    }
+    else if (answer === 'yes' || answer === 'y' || answer === 'Y' || answer === 'YES') {
+        return ('That is Wrong ' + userName);
+
+    } else {
+
+        return ('wrong input');
+
+    }
+
+}
 //console.log(graduated);
-if (graduated === 'no' || graduated === 'n' || graduated === 'N' || graduated === 'NO') {
-    message = ('That is right ' + userName);
-    score = score + 1;
-
-}
-else if (graduated === 'yes' || graduated === 'y' || graduated === 'Y' || graduated === 'YES') {
-    message = ('That is wrong ' + userName);
-
-
-
-} else {
-
-    message = ('wrong input');
-
-}
-alert(message);
 
 
 

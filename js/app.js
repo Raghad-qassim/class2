@@ -108,10 +108,13 @@ if
 
     
 }
+
+
 else if
-(experience==="yes"||experience==="y"||experience=="Y"||experience==="YES"){
-    message=("That is wrong   "+userName);
-}else{
+
+    (experience==="yes"||experience==="YES"||experience==="y"||experience==="Y"){
+
+
 
     message=("wrong input");
 
@@ -120,12 +123,12 @@ alert(message);
 
 
 
-//Question five
+//Question six
 let place="";
-place=prompt(" How many strange place i mentionsed in my page?"," The answer must be anumber");
+place=prompt(" How many Top 10 strange place i mentionsed in my page?"," The answer must be anumber");
 //console.log(place);
 
-//Question six
+
 let i=0;
 let answer=" ";
 for(i=0;i<3;i++){

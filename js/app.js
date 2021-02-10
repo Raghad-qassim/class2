@@ -31,7 +31,7 @@ function q1(answer) {
 
 //console.log(study);
 
-let message = '';
+
 
 
 //Question two
@@ -143,20 +143,20 @@ function q6(answer) {
 
     let i = 0;
     for (i = 0; i < 3; i++) {
-        if (place === 10) {
+        if (parseInt(answer) === 10) {
             score = score + 1;
 
-            return ('That is right the currect number is '+answer);
+            return ('That is right the currect number is '+ answer);
 
-        } else if (place > 10) {
+        } else if (parseInt(answer) > 10) {
 
             alert('That is too high');
-            place = prompt(' How many strange place i mentionsed in my page?', ' The answer must be anumber');
+            answer = prompt(' How many strange place i mentionsed in my page?', ' The answer must be anumber');
 
         } else {
 
             alert('That is too low');
-            place = prompt(' How many strange place i mentionsed in my page?', ' The answer must be anumber');
+            answer = prompt(' How many strange place i mentionsed in my page?', ' The answer must be anumber');
         }
 
     }
@@ -170,25 +170,32 @@ function q6(answer) {
 
 //console.log(score);
 
+// question 7
 
 let fun = prompt('This question  for fun :Type the name of one of the governorates of Jordan?');
 let governorates = ['irbid', 'ajloun', 'jerash', 'mafraq', 'balqa', 'amman', 'zarqa', 'madaba', 'karak', 'tafilah', 'maan', 'aqaba', 'Irbid', 'Ajloun', 'Jerash', 'Mafraq', 'Balqa', 'Amman', 'Zarqa', 'Madaba', 'Karak', 'Tafilah', 'Maan', 'Aqaba'];
+alert(q7(fun));
+function q7(answer) {
+    let a = 0;
+    for (a = 0; a < 5; a++) {
+        if (governorates.includes(answer)) {
+            score = score + 1;
+            return ('You are right ');
+        }
+        else {
+            answer = prompt('Try again :Type the name of one of the governorates of Jordan?');
+        }
+
+    }
+}
+
+
+
 
 //console.log(governorates);
-let a = 0;
-
-console.log(fun);
-for (a = 0; a < 5; a++) {
-    if (governorates.includes(fun)) {
-        score = score + 1;
-        break;
-    }
-    else {
-        fun = prompt('Try again :Type the name of one of the governorates of Jordan?');
-    }
 
 
-}
+//console.log(fun);
 alert('your score is ' + score);
 
 

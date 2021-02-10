@@ -57,12 +57,28 @@ function q2(answer) {
 //console.log(graduated);
 
 
-
-
-
 //Question three
-let University = '';
-University = prompt('I was study in the University of Jordan?');
+
+let university = prompt('I was study in the University of Jordan?');
+alert(q3(university));
+function q3(answer) {
+    if (answer === 'yes' || answer === 'y' || answer === 'Y' || answer === 'YES') {
+        score = score + 1;
+        return ('That is right   ' + userName);
+
+    }
+    else if (answer === 'no' || answer === 'n' || answer === 'N' || answer === 'NO') {
+        return ('That is wrong   ' + userName);
+
+    } else {
+
+        return ('wrong input');
+
+
+    }
+}
+
+
 //console.log(University);
 if (University === 'yes' || University === 'y' || University === 'Y' || University === 'YES') {
     message = ('That is right   ' + userName);

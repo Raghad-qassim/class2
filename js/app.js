@@ -35,14 +35,16 @@ alert(message);
 let graduated="";
 graduated =prompt("I was graduated in 2019?");
 //console.log(graduated);
-if(graduated==="yes"||graduated==="y"||graduated==="Y"||graduated==="YES"){
+if (graduated==="no"||graduated==="n"||graduated==="N"||graduated==="NO"){
+    message=("That is right "+ userName);
+    score=score+1;
+
+}
+else if(graduated==="yes"||graduated==="y"||graduated==="Y"||graduated==="YES"){
     message=("That is wrong "+userName);
     
 
-}
-else if(graduated==="no"||graduated==="n"||graduated==="N"||graduated==="NO"){
-    message=("That is right "+ userName);
-    score=score+1;
+
 }else{
 
     message=("wrong input");
@@ -98,14 +100,17 @@ alert(message);
 let experience="";
 experience=prompt("I have one years experience?");
 //console.log(experience);
-if(experience==="yes"||experience==="y"||experience=="Y"||experience==="YES"){
-    message=("That is wrong   "+userName);
+if
+(experience==="no"||experience==="n"||experience==="N"||experience==="NO"){
+
+    message=("That is right   "+ userName);
+    score=score+1;
+
     
 }
-else if(experience==="no"||experience==="n"||experience==="N"||experience==="NO"){
-
- message=("That is right   "+ userName);
- score=score+1;
+else if
+(experience==="yes"||experience==="y"||experience=="Y"||experience==="YES"){
+    message=("That is wrong   "+userName);
 }else{
 
     message=("wrong input");
@@ -173,7 +178,6 @@ for(i=0;i<3;i++){
     
     }
     alert("your score is "+score);
-    alert("good bye " +userName + " come back soon");
   
 
     

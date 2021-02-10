@@ -21,7 +21,7 @@ score=score+1;
 }
 else if(study==="no"||study==="n"||study==="N"||study==="NO"){
  message=("That is wrong "+userName);
- score=score-1;
+ 
 
 }else{
 
@@ -37,7 +37,7 @@ graduated =prompt("I was graduated in 2019?");
 //console.log(graduated);
 if(graduated==="yes"||graduated==="y"||graduated==="Y"||graduated==="YES"){
     message=("That is wrong "+userName);
-    score=score-1;
+    
 
 }
 else if(graduated==="no"||graduated==="n"||graduated==="N"||graduated==="NO"){
@@ -65,7 +65,7 @@ if(University==="yes"||University==="y"||University==="Y"||University==="YES"){
 }
 else if(University==="no"||University==="n"||University==="N"||University==="NO"){
  message=("That is wrong   "+userName); 
- score=score-1;
+ 
 }else{
 
     message=("wrong input");
@@ -84,7 +84,7 @@ if(GPA==="yes"||GPA==="y"||GPA==="Y"||GPA==="YES"){
 }
 else if(GPA==="no"||GPA==="n"||GPA==="N"||GPA==="NO"){
  message=("That is wrong   "+userName);
- score=score-1;
+
 }else{
 
     message=("wrong input"); 
@@ -100,7 +100,7 @@ experience=prompt("I have one years experience?");
 //console.log(experience);
 if(experience==="yes"||experience==="y"||experience=="Y"||experience==="YES"){
     message=("That is wrong   "+userName);
-    score=score-1;
+    
 }
 else if(experience==="no"||experience==="n"||experience==="N"||experience==="NO"){
 
@@ -113,7 +113,7 @@ else if(experience==="no"||experience==="n"||experience==="N"||experience==="NO"
 }
 alert(message);
 
-//alert("good bye " +userName + " come back soon");
+
 
 //Question five
 let place="";
@@ -173,6 +173,7 @@ for(i=0;i<3;i++){
     
     }
     alert("your score is "+score);
+    alert("good bye " +userName + " come back soon");
   
 
     

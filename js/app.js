@@ -184,9 +184,6 @@ function q7(answer) {
 
 
 
-
-
-
 alert('your score is ' + score);
 
 

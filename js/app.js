@@ -2,14 +2,13 @@
 
 let userName = '';
 userName = prompt('what is your name?');
-//console.log(userName);
+
 alert('welcome  ' + userName);
 
 alert('There are five questions answer it with yes or no  ');
 
-
-
 let score = 0;
+
 //Question one
 let study = prompt('I was study computer information system?');
 alert(q1(study));
@@ -29,9 +28,6 @@ function q1(answer) {
 
     }
 }
-
-//console.log(study);
-
 
 
 
@@ -55,7 +51,6 @@ function q2(answer) {
     }
 
 }
-//console.log(graduated);
 
 
 //Question three
@@ -79,7 +74,6 @@ function q3(answer) {
     }
 }
 
-//console.log(University);
 
 //Question four
 let GPA = prompt('my GPA was 3.38 from 4 in the university?');
@@ -102,7 +96,7 @@ function q4(answer) {
 
 }
 
-//console.log(GPA);
+
 
 //Question five
 
@@ -111,13 +105,13 @@ alert(q5(experience));
 
 function q5(answer) {
     if
-    (answer === 'no' || answer === 'n' || answer === 'N' || answer === 'NO') {
+        (answer === 'no' || answer === 'n' || answer === 'N' || answer === 'NO') {
 
         score = score + 1;
         return ('That is Right   ' + userName);
-    }else if
+    } else if
 
-    (answer === 'yes' || answer === 'YES' || answer === 'y' || answer === 'Y') {
+        (answer === 'yes' || answer === 'YES' || answer === 'y' || answer === 'Y') {
 
         return ('That is Wrong   ' + userName);
 
@@ -127,9 +121,6 @@ function q5(answer) {
     }
 
 }
-
-
-//console.log(experience);
 
 
 
@@ -147,7 +138,7 @@ function q6(answer) {
         if (parseInt(answer) === 10) {
             score = score + 1;
 
-            return ('That is right the currect number is '+ answer);
+            return ('That is right the currect number is ' + answer);
 
         } else if (parseInt(answer) > 10) {
 
@@ -165,11 +156,10 @@ function q6(answer) {
 
 
 
-//console.log(place);
 
 
 
-//console.log(score);
+
 
 // question 7
 
@@ -193,10 +183,10 @@ function q7(answer) {
 
 
 
-//console.log(governorates);
 
 
-//console.log(fun);
+
+
 alert('your score is ' + score);
 
 

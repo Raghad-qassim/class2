@@ -13,7 +13,7 @@ h1{
     st-style-type: square;
     background: #dcc4eb;
     margin: 2px;
-    font-size:25px;
+    font-size:23px;
     font-style: italic;
     font-style: bold;
     text-shadow: 2px 2px 5px rgb(247, 138, 147);
@@ -45,14 +45,14 @@ img{
 
     font-size: 25px;
     color:rgb(181, 127, 231)
-    font-family: 'Tenor Sans', sans-serif
+    
 
 }
 #thirdparagraph{
 
     font-size: 25px;
     color:rgb(179, 25, 158)
-    font-family: 'Tenor Sans', sans-serif
+   
 
 
 }
@@ -60,7 +60,7 @@ img{
 
     font-size: 25px;
     color:rgb(153, 59, 241)  
-    font-family: 'Tenor Sans', sans-serif
+    
 }
 .listitem{
 
@@ -74,7 +74,7 @@ img{
     font-size: 25px;
     color:rgb(48, 5, 34)
     text-shadow: cadetblue2px 2px 5px rgb(0, 0, 225);
-    font-family: 'Tenor Sans', sans-serif
+    
 
 }
 

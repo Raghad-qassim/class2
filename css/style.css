@@ -10,7 +10,7 @@ h1{
 }
 .firstlist{
 
-    st-style-type: square;
+    list-style-type: square;
     background: #dcc4eb;
     margin: 2px;
     font-size:23px;
@@ -73,7 +73,6 @@ img{
     text-decoration: underline;
     font-size: 25px;
     color:rgb(48, 5, 34)
-    text-shadow: cadetblue2px 2px 5px rgb(0, 0, 225);
     
 
 }
